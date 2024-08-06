@@ -22,15 +22,17 @@ border-style: inset;
 width: 100%;
 }
 
-ul{
+ol{
     display: flex;
     flex-direction: row;
-    background-color: red;
+    background-color: #333333;
+    
 }
 
 li{
-    margin: 0 10px;
+    margin: 0px 130px;
    list-style: none;
+
 }
 
 a{
@@ -38,4 +40,22 @@ a{
     font-size: 16px;
     text-decoration: none;
     font-weight: bold;
+   
+}
+a:hover{
+    color: red;
+    font-size: 18px;
+    transition: all 0.8 ;
+}
+
+div{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+div:hover{
+    background-color: blue;
+    border-radius: 50px;
+    transition: all 0.8;
 }
