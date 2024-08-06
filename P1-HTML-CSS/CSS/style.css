@@ -1,0 +1,41 @@
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+  color: #333333; /* muda a fonte para não cifrada*/
+}
+h1{
+    text-decoration:underline;
+    font-style: italic; /* sublinha e italico*/
+}
+h2{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold; /* muda a fonte para cifrada*/
+}
+header{
+    background-color: cornflowerblue; /* plano de fundo azul*/
+    text-align: center; /* Centraliza o texto */
+    border: solid 2px blue;
+}
+nav{
+background-color:#333333; /*plano de fundo preto*/
+border: 2px solid red; /* Adiciona uma borda sólida vermelha de 2 pixels*/
+border-style: inset;
+width: 100%;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+}
+
+li{
+    margin: 0 10px;
+   list-style: none;
+}
+
+a{
+    color:aliceblue;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
